@@ -1,0 +1,7 @@
+import numpy as np
+arr1 = np.array(list(map(int, input('Enter the elements in an array:(space should be given between each element): ').split())))
+print('Array 1: ',arr1)
+arr2 = np.array(list(map(int, input('Enter the elements in an array: (space should be given between each element): ').split())))
+print('Array 2:', arr2)
+print('\n')
+print('Addition of the two matrices is:',arr1+arr2)
